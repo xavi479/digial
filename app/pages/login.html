@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Mono+One&family=Train+One&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="login.js"defer></script>
+</head>
+
+<body>
+
+  <header class="container">
+    <div class="logo-film">
+        <h1 class="logo">LaOz.Film</h1>
+    </div>
+</header>
+  <main>
+    <div class="form-container">
+      <h1>Inicial sesión</h1>
+      <p>ingresá tus credenciales para acceder al área de administrado</p>
+    <form id="login-form">
+      <label for="user" class="sr-only">User</label>
+      <input type="text" name="user" id="user" 
+      placeholder="Nombre de Usuario" required>
+
+      <label for="password" class="sr-only">Password</label>
+      <input type="password" name="password" id="password" 
+      placeholder="Contraseña de Usuario" required>
+
+      <button type="submit">Iniciar Sesión</button>
+
+      <p class="error esconder">Error al Iniciar Sesión</p>
+    </form>
+
+    <p>¿Todavía no tienés una cuenta? - <a href="/register">Registrate</a></p>
+
+    </div>
+  </main>
+</body>
+
+</html>
+
+
+
+<!-- <header class="container">
+        <div class="logo-film">
+            <h1 class="logo">LaOz.Film</h1>
+        </div>
+
+        <p>¡Todo lo que hay para ver!</p>
+    </header>
+
+    <main class="container-data">
+        <img src="../img/file.png" alt="fondo-home-pelis" id = "fondo-home-pelis">
+        <article id="container-login">
+            <h2>Login</h2>
+            <form class="formulary" action="login" method="post">
+                <label for=""><input class="passwordname" type="text" name="passwordname" placeholder="passwordname" autocomplete="passwordname" required></label>
+                <label for=""><input class="password" type="password" name="password" placeholder="Password" autocomplete="password" required></label>
+                <button class="button1" type="submit">Login</button>
+                <p class="or">o</p>
+                <button class="button2" type="button">Usar un codigo de inicio</button>
+                <label class="checkbox">
+                    <input " type="checkbox" checked="checked" name="remember"> Remember me
+                </label>
+
+                <div class="container">
+                    <span class="psw">Forgot <a href="#">password?</a></span>
+                    <span class="psw">¿Primera vez en LaOz.Fillm? <a href="../home.html">Unirme ahora</a></span>
+                </div>
+
+                
+            </form>
+        </article>
+
+        <footer>
+            <p>&copy; 2021</p>-->

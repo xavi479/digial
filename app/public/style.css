@@ -1,0 +1,146 @@
+
+/* estilos del login*/
+html{
+  background-image: url('../img/file.png');
+  background-size: cover;
+  background-position: center;
+  filter: brightness(0.6);
+}
+
+body{
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100svh;
+  font-size: large;
+}
+
+.logo {  
+  display: flex;
+  position: absolute;
+  color: #ffd900;
+  top: -0%;
+  left: 5%;
+  justify-content: baseline;
+  width: 10%;
+  font-family: "Train One", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.logo:hover{
+  color: #e7dfdf;
+  transition: 1s;
+}
+
+.form-container{
+  background-color: #211f1fa3;
+  width: 300px;
+  padding: 20px;
+  border:  #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+form+p{
+  text-align: center;
+}
+
+
+input, button{
+  padding: 10px;
+  border: #cccccc55;
+  font-weight: bold;
+  border-radius: 5px;
+  font-size: large;
+  font-family: "Orbitron", serif;
+  background-color: #8a898841;
+  color: #f4eaea;
+}
+
+button{
+  background-color: #ff8000;
+  color: #f4eaea;
+  cursor: pointer;
+}
+
+h1, p{
+  color: #f4eaea;
+  text-align: center;
+  font-family: "Orbitron", serif;
+}
+
+a{
+  color: #ff8000;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #f4eaea;
+}
+
+.error{
+  color: red;
+  font-size: small;
+}
+
+.esconder{
+  display: none;
+  
+}
+
+.sr-only{
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;  
+}
+
+
+/*estilos de register*/
+
+
+
+
+
+/*Estilos de home*/
+
+.btn{
+  display: flex;
+  position: absolute;
+  top: 5%;
+  left: 75%;
+  background-color: #ff8000;
+  color: #f4eaea;
+  cursor: pointer;
+  padding: 10px;
+  border: #cccccc55;
+  font-weight: bold;
+  border-radius: 5px;
+  font-size: large;
+  font-family: "Orbitron", serif;
+}
+
+
+/*color: #ffd900;
+
+
+justify-content: baseline;
+width: 95%;
+font-family: "Train One", serif;
+font-weight: 700;
+font-style: normal;
+font-size: 40px;
+cursor: pointer;*/

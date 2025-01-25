@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="register.js" defer></script>
+</head>
+<body>
+
+  <header class="container">
+    <div class="logo-film">
+        <h1 class="logo">LaOz.Film</h1>
+    </div>
+</header>
+  <main>
+    <div class="form-container">
+      <h1>Crear Cuenta</h1>
+      <p>Crear tu cuenta para entrar al área de administrado</p>
+    <form id="register-form">
+      <label for="user" class="sr-only">User</label>
+      <input type="text" name="user" id="user" 
+      placeholder="Nombre de Usuario" required>
+
+      <label for="email" class="sr-only">Email</label>
+      <input type="email" name="email" id="email" 
+      placeholder="Correo de Usuario" required>
+
+      <label for="password" class="sr-only">Password</label>
+      <input type="password" name="password" id="password" 
+      placeholder="Contraseña de Usuario" required>
+
+      <label for="confirmPassword" class="sr-only">confirmPassword</label>
+      <input type="confirmPassword" name="confirmPassword" id="password" 
+      placeholder="Confirmación de Contraseña" required>
+
+      <button type="submit">Registrate</button>
+
+      <p class="error esconder">Error al Registrarte</p>
+    </form>
+
+    <p>¿Ya estás registrado? - <a href="/">Iniciar Sesion</a></p>
+    </div>
+  </main>
+</body>
+
+</html>
+<!--<header class="container">
+    <div class="logo-film">
+      <h1 class="logo">LaOz.Film</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><button class="btn"><a href="../html/login.html">Iniciar sesión</a></button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2><button class="button-register" onclick="toggleRegisterForm()">Register</button></h2>
+    <p>Register to start watching movies and TV shows.</p>
+    <article id="registerForm">
+      <form action="register.html" method="get">
+        <input id="emailInput" type="email" name="email" placeholder="Email" required>
+        <input id="username" type="text" name="username" autocomplete="username" placeholder="Username" required>
+        <input id="passwordInput" type="password" name="password" autocomplete="new-password" placeholder="Password" required>
+        <input id="confirmPasswordInput" type="password" name="password2" autocomplete="current-password" placeholder="Confirm password" required>
+        <button type="submit">Register</button>
+      </form>
+    </article>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 LaOz.Film</p>
+  </footer>
+-->
