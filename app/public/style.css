@@ -21,8 +21,8 @@ body{
   display: flex;
   position: absolute;
   color: #ffd900;
-  top: -0%;
-  left: 5%;
+  top: 4%;
+  left: 7%;
   justify-content: baseline;
   width: 10%;
   font-family: "Train One", serif;
@@ -58,6 +58,7 @@ form+p{
 
 
 input, button{
+
   padding: 10px;
   border: #cccccc55;
   font-weight: bold;
@@ -116,31 +117,122 @@ a:hover{
 
 
 /*Estilos de home*/
-
-.btn{
-  display: flex;
+.navbar{
+  display: flexbox;
   position: absolute;
   top: 5%;
-  left: 75%;
-  background-color: #ff8000;
-  color: #f4eaea;
-  cursor: pointer;
-  padding: 10px;
-  border: #cccccc55;
-  font-weight: bold;
-  border-radius: 5px;
-  font-size: large;
+  left: 70%;
+  justify-content: space-between;
+  align-items: center;
+  width: 30%;
   font-family: "Orbitron", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 
 
-/*color: #ffd900;
+.btn{
+  width: 180px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+  margin: 10px;
+  background-color: #de5419;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+}
 
+.btn:hover{
+  background-color: #f0703a;
+  color: white;
+}
+.container-data{
+  display: flex;
+  position: relative;
+  top: 5%;
+  justify-content: center;
+  align-items: center;
+  height: 89vh;
+}
 
-justify-content: baseline;
-width: 95%;
-font-family: "Train One", serif;
-font-weight: 700;
-font-style: normal;
-font-size: 40px;
-cursor: pointer;*/
+.container-data h2{
+  position: absolute;
+  width: 100%;
+  top: 30%;
+  color: #ffd900;
+  font-size: 40px;
+  font-family: "Orbitron", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  text-align: center;
+}
+
+.container-data p{
+  position: absolute;
+  top: 40%;
+  color: #ffd900;
+  font-size: 25px;
+  font-family: "Orbitron", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  text-align: center;
+}
+
+.formulary-data{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 20%;
+}
+
+.formulary{
+  display: flexbox;
+  flex-direction:row;
+  gap: 10px;
+}
+
+.input{
+  background-color: rgba(23, 22, 22, 0.595);
+  color: white;
+  width: 300px;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+  margin: 5px;
+  font-size: 20px;
+  border: 2px solid #de5419;
+}
+
+.button{
+  width: 150px;
+  height: 45px;
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+  margin: 5px;
+  background-color: #de5419;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.button, strong{
+  font-family: "Orbitron", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.formulary-data .button:hover{
+  background-color: #f0703a;
+}
+
+.error {
+  border: 2px solid red;
+  background-color: #ffe6e6;
+}
